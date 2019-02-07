@@ -1,0 +1,45 @@
+body
+{
+    border: 30px solid black;
+    text-align: center;
+    background: grey;
+}
+
+
+
+.container
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template:
+    "header" "header" "header" "header"
+    "section" "section" "section" "section"
+    "footer" "footer" "footer" "footer"
+
+
+
+
+}
+
+
+header {
+    grid-area: header;
+    background: black;
+    color: lightgray;
+}
+
+
+section
+
+{
+    grid-area: section;
+    font-size: xx-large;
+   color: blue;
+}
+footer
+{
+    grid-area: footer;
+}
+
+
+
